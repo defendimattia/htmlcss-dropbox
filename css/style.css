@@ -69,3 +69,32 @@ h1 {
     width: 35%;
     flex-shrink: 0;
 }
+
+
+/*** main***/
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container-grid .box {
+    width: calc((100% - 100px) / 3);
+    flex-shrink: 0;
+}
+
+.container-grid .box:last-child {
+    width: 100%;
+}
+
+.container-grid {
+    flex-wrap: wrap;
+    gap: 50px;
+    display: flex;
+    margin: 0 auto 220px;
+}
+
+.container .cont-txt {
+    width: 40%;
+    flex-grow: 0;
+}
