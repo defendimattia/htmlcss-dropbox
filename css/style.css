@@ -109,3 +109,7 @@ main .container {
     width: calc((100% - 100px) / 3);
     flex-shrink: 0;
 }
+
+.container-grid2 {
+    padding-bottom: 215px;
+}
