@@ -4,5 +4,49 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-} 
+    /* font */
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
 
+
+/*** debugger ***/
+
+.debugger {
+    background-color: cadetblue;
+    border: 1px dashed red;
+}
+
+
+/*** header ***/
+
+.h-nav {
+    display: flex;
+    height: 80px;
+}
+
+.h-nav > div {
+    padding: 5px;
+}
+
+.h-l-list {
+    flex-grow: 1;
+}
+
+.h-list {
+    display: flex;
+    list-style-type: none;
+    gap: 5px;
+}
+
+.h-r-list .h-list{
+    justify-content: end;
+}
+
+.h-r-list {
+    flex-grow: 1;
+}
