@@ -4,13 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* font */
     font-family: "Open Sans", serif;
-    font-optical-sizing: auto;
-    font-weight: normal;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
 }
 
 
@@ -21,34 +15,13 @@
     border: 1px dashed red;
 }
 
+/*** general ***/
 
-/*** header ***/
-
-.h-nav {
-    display: flex;
-    height: 80px;
-}
-
-.h-nav > div {
-    padding: 5px;
-}
-
-.h-l-list {
-    flex-grow: 1;
-}
-
-.h-list {
-    display: flex;
-    list-style-type: none;
-    gap: 5px;
-}
-
-.h-r-list .h-list{
-    justify-content: end;
-}
-
-.h-r-list {
-    flex-grow: 1;
+.button {
+    color: #ffffff;
+    background-color: #0061fe;
+    padding: 8px 15px;
+    text-decoration: none;
 }
 
 .container {
@@ -57,17 +30,75 @@
     margin: 0 auto;
 }
 
+
+/*** header ***/
+
+.h-nav {
+    display: flex;
+    height: 80px;
+    background-color: #ffffff;
+    align-items: center;
+    padding: 0 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: 1px 1px 1px grey;
+}
+
+.h-nav > div {
+    padding: 5px;
+}
+
+.h-l-list,
+.h-r-list {
+    flex-grow: 1;
+    margin-left: 40px;
+}
+
+.h-list {
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+}
+
+.h-r-list .h-list{
+    justify-content: end;
+    align-items: center;
+}
+
+.h1-cont {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
 .jumbo {
     background-color: #b4d0e6;
 }
 
 h1 {
-    text-align: center;
+    font-size: 70px;
+    text-align: left;
+    padding-top: 105px;
 }
 
-.jumbo .container :first-child {
+.jumbo .container div:first-child {
     width: 35%;
     flex-shrink: 0;
+}
+
+.container img {
+    max-width: 100%;
+}
+
+li a {
+    text-decoration: none;
+    color: #000000;
+} 
+
+.jumbo .container {
+    position: relative;
+    top: 75px;
 }
 
 
@@ -76,6 +107,10 @@ h1 {
 main {
     max-width: 1000px;
     margin: 0 auto;
+}
+
+main h2 {
+    margin-top: 190px;
 }
 
 .container-grid1 .box,
@@ -102,7 +137,7 @@ main {
 }
 
 main .container {
-    margin-bottom: 220px;
+    margin-top: 220px;
 }
 
 .container-grid1 .box {
