@@ -110,10 +110,6 @@ main .container {
     flex-shrink: 0;
 }
 
-.container-grid2 {
-    padding-bottom: 215px;
-}
-
 
 /*** footer ***/
 
@@ -124,6 +120,7 @@ footer {
 footer .container {
     color: #ffffff;
 }
+
 footer .f-list {
     width: 20%;
 }
