@@ -50,3 +50,22 @@
 .h-r-list {
     flex-grow: 1;
 }
+
+.container {
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.jumbo {
+    background-color: #b4d0e6;
+}
+
+h1 {
+    text-align: center;
+}
+
+.jumbo .container :first-child {
+    width: 35%;
+    flex-shrink: 0;
+}
