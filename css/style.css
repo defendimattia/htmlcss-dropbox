@@ -113,3 +113,17 @@ main .container {
 .container-grid2 {
     padding-bottom: 215px;
 }
+
+
+/*** footer ***/
+
+footer {
+    background-color: #000000;
+}
+
+footer .container {
+    color: #ffffff;
+}
+footer .f-list {
+    width: 20%;
+}
