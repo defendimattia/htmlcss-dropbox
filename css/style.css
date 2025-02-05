@@ -78,16 +78,18 @@ main {
     margin: 0 auto;
 }
 
-.container-grid .box {
+.container-grid1 .box,
+.container-grid2 .box {
     width: calc((100% - 100px) / 3);
     flex-shrink: 0;
 }
 
-.container-grid .box:last-child {
+.container-grid1 .box:last-child {
     width: 100%;
 }
 
-.container-grid {
+.container-grid1,
+.container-grid2 {
     flex-wrap: wrap;
     gap: 50px;
     display: flex;
@@ -97,4 +99,13 @@ main {
 .container .cont-txt {
     width: 40%;
     flex-grow: 0;
+}
+
+main .container {
+    margin-bottom: 220px;
+}
+
+.container-grid1 .box {
+    width: calc((100% - 100px) / 3);
+    flex-shrink: 0;
 }
