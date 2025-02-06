@@ -72,7 +72,7 @@
     align-items: center;
 }
 
-.h1-cont {
+.h1-cont{ 
     max-width: 1200px;
     margin: 0 auto;
     text-align: left;
@@ -82,6 +82,7 @@
     background-color: #b4d0e6;
     padding-bottom: 25px;
     margin-right: 5px;
+    margin-bottom: 190px;
 }
 
 h1 {
@@ -132,9 +133,22 @@ main {
 }
 
 main h2 {
-    margin-top: 190px;
+    font-size: 30px;
+    margin-bottom: 70px;
 }
 
+.circle {
+    border: 5px solid #0061fe;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.c-right {
+    border: 1px solid #d0cfd4;
+    margin-left: 30px;
+}
 .container-grid1 .box,
 .container-grid2 .box {
     width: calc((100% - 100px) / 3);
