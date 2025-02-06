@@ -5,6 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
 }
 
 
@@ -22,6 +23,11 @@
     background-color: #0061fe;
     padding: 8px 15px;
     text-decoration: none;
+    display: inline-block;
+}
+
+.button:hover {
+    filter: brightness(1.4);
 }
 
 .container {
@@ -74,27 +80,43 @@
 
 .jumbo {
     background-color: #b4d0e6;
+    padding-bottom: 25px;
+    margin-right: 5px;
 }
 
 h1 {
     font-size: 70px;
     text-align: left;
-    padding-top: 105px;
+    padding-top: 100px;
+    font-weight: 1000;
 }
 
 .jumbo .container div:first-child {
     width: 35%;
     flex-shrink: 0;
+    
 }
 
 .container img {
     max-width: 100%;
 }
 
+.jumbo .container li {
+   margin-bottom: 35px; 
+}
+
 li a {
     text-decoration: none;
     color: #000000;
 } 
+
+header .container ul li:last-child {
+    font-size: 40px;
+}
+
+header ul {
+    list-style: none;
+}
 
 .jumbo .container {
     position: relative;
