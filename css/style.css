@@ -282,6 +282,7 @@ main h2 {
 footer {
     background-color: #000000;
     margin-top: 190px;
+    margin-left: 5px;
     padding: 90px 0 50px 0;
 }
 
@@ -301,4 +302,12 @@ footer li {
 
 footer ul {
     margin-top: 20px;
+}
+
+.box-lang {
+    padding-top: 50px;
+    color: #99999b;
+    margin: 0 auto;
+    font-size: 12px;
+    width: 1200px;
 }
