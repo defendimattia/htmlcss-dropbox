@@ -281,6 +281,8 @@ main h2 {
 
 footer {
     background-color: #000000;
+    margin-top: 190px;
+    padding: 90px 0 50px 0;
 }
 
 footer .container {
@@ -289,4 +291,14 @@ footer .container {
 
 footer .f-list {
     width: 20%;
+}
+
+footer li {
+    list-style-type: none;
+    margin: 10px 0;
+    font-size: 12px;
+}
+
+footer ul {
+    margin-top: 20px;
 }
