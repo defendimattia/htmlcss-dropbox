@@ -36,6 +36,21 @@
     margin: 0 auto;
 }
 
+h1 {
+    font-size: 70px;
+    text-align: left;
+    padding-top: 100px;
+    font-weight: 1000;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+em {
+    color: #d0cfd4;
+}
+
 
 /*** header ***/
 
@@ -85,12 +100,6 @@
     margin-bottom: 190px;
 }
 
-h1 {
-    font-size: 70px;
-    text-align: left;
-    padding-top: 100px;
-    font-weight: 1000;
-}
 
 .jumbo .container div:first-child {
     width: 35%;
@@ -182,6 +191,29 @@ main h2 {
     display: flex;
 }
 
+.down-section ul:first-child {
+    list-style-type: none;
+} 
+
+.down-section ul li {
+    margin: 10px 0;
+    list-style-position: inside;
+}
+
+.down-section {
+    padding: 40px 35px;
+}
+
+.down-section ul strong,
+.down-section ul em {
+    font-size: 15px;
+}
+
+.down-section ul li:last-child {
+    margin-bottom: 50px;
+}
+
+
 .container .cont-txt {
     width: 40%;
     flex-grow: 0;
@@ -191,6 +223,9 @@ main .container {
     margin-top: 220px;
 }
 
+.down-section a {
+    margin-bottom: 35px;
+}
 
 /*** footer ***/
 
