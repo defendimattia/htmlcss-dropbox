@@ -261,6 +261,22 @@ h4 {
     margin-top: 30px;
 }
 
+main h2 {
+    margin-top: 170px;
+}
+
+.container-grid2 .box .cont-img img {
+    max-width: 100%;
+}
+
+.container-grid2 .box h3 {
+    margin: 35px 0;
+}
+
+.container-grid2 .box {
+    border: 0;
+}
+
 /*** footer ***/
 
 footer {
