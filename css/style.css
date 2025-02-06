@@ -149,6 +149,22 @@ main h2 {
     border: 1px solid #d0cfd4;
     margin-left: 30px;
 }
+
+.container-grid1 {
+    margin: 50px 0 120px 0;
+}
+
+.container-grid1 .box {
+    width: calc((100% - 100px) / 3);
+    flex-shrink: 0;
+}
+
+.container-grid1 .box div:first-child {
+    text-align: center;
+    padding: 10px 0;
+    border-bottom:  1px solid #d0cfd4;
+}
+
 .container-grid1 .box,
 .container-grid2 .box {
     width: calc((100% - 100px) / 3);
@@ -164,7 +180,6 @@ main h2 {
     flex-wrap: wrap;
     gap: 50px;
     display: flex;
-    margin: 0 auto 220px;
 }
 
 .container .cont-txt {
@@ -174,11 +189,6 @@ main h2 {
 
 main .container {
     margin-top: 220px;
-}
-
-.container-grid1 .box {
-    width: calc((100% - 100px) / 3);
-    flex-shrink: 0;
 }
 
 
